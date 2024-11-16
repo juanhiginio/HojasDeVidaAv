@@ -1,0 +1,125 @@
+*{
+    font-family: 'public-sans-bold'; 
+}
+
+body{
+    background-image: url('../assets/fondoDashboard.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+}
+
+@font-face {
+    font-family: 'public-sans-bold';
+    src: url('./fonts/public-sans.medium.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#avidanti{
+    height: 73px;
+}
+
+
+nav,#fluid{
+    display: flex;
+    justify-content:space-between;
+    gap: 5%;
+}
+
+#img-person{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 200%;
+}
+
+
+.personal-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+#name{
+    font-size: 35px;
+}
+
+#rol{
+    font-size: 17px;
+}
+
+#input-search {
+    padding: 10px 40px 10px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;;
+}
+
+#search {
+    color: #888;
+    font-size: 18px;
+    text-decoration: none;
+    width: 400px;
+    height: 45px;
+    margin: 0 auto;
+}
+
+.navbar {
+    transition: background-color 0.5s ease;
+}
+        
+.navbar:hover {
+    background-color: #cbdcef; 
+}
+.nav-link {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+        
+.nav-link:hover {
+    transform: scale(1.1); 
+}
+
+
+.container-data {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-top: 50px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    border-radius: 200%;
+    padding: 5px;
+    filter: drop-shadow(5px 3px 5px #4444dd3c);
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-input {
+    width: 100%;
+    height: auto;
+    margin-top: 1.5%;
+}
+
+hr {
+    width: 50%;
+    height: 4.5px;
+    background-color: black;
+    margin: 0 auto;
+}
