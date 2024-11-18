@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +19,7 @@
                     <br>
                     <br>
                     <br>
-                    <h1 class="text-principal" id="bienvenido">Bienvenido!</h1>
+                    <h1 class="text-principal" id="bienvenido">Bienvenido</h1>
                     <h4 id="sub" class="text-principal">Ingresa tu usuario y contraseña</h4>
                     <br>
                     <h4 id="user" class="credentials">Usuario</h4>
