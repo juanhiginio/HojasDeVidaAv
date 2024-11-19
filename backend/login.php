@@ -7,6 +7,7 @@ $username = $_POST['user'];
 $password = $_POST['password'];
 
 try {
+
     $stmt = $conn->prepare("SELECT * FROM usuarios WHERE usuario = :username");
     $stmt->bindParam(':username', $username);
     $stmt->execute();
@@ -24,7 +25,6 @@ try {
     } else {
         echo "Usuario no encontrado";
     }
-
 } catch (PDOException $e) {
     echo "Error en la conexión: " . $e->getMessage();
 }

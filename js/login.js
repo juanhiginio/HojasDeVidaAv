@@ -27,4 +27,7 @@ $(document).ready(function () {
             console.log("Error en la petición AJAX: " + error); 
         });
     });
+
+
 })
+

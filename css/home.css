@@ -123,3 +123,30 @@ hr {
     background-color: black;
     margin: 0 auto;
 }
+
+#item-users{
+    margin-left:40rem ;
+}
+
+#dropdown{
+    border: 0px;
+    background-color: transparent;
+    height: 40px;
+    width: 60px;
+    margin-left:55rem ;
+    margin-top: -35px;
+}
+
+
+
+
+.dropdown-menu{
+    margin-left:55rem ;
+    margin-top: 0px;
+}
+
+
+#dropdown i{
+    font-size: 30px;
+    z-index: -1;
+}

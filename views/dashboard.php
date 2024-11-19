@@ -1,4 +1,10 @@
+<?php
+    session_start();
+    $user = $_SESSION['username'];
+    $user = strtoupper($user);
 
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,10 +33,17 @@
                         <li class="nav-item">
                             <a class="nav-link text-hover" aria-current="page" href="../index.html" id="logout">CERRAR </a>
                         </li>
-                        <li>
-                            <h2>
-                            <?php echo $welcome . " " . $user; ?>
-                            </h2>
+                        <li  class="nav-item">
+                            <a class="nav-link text-hover" aria-current="page" id="item-users">
+                                ¡ Hola <?php echo $user; ?> !
+                            </a> 
+                            <button class="dropdown-btn" id="dropdown"><i class="fa-solid fa-bars"></i></button>
+                            <div class="dropdown-menu" >
+                                <a class="dropdown-item" href="#">Opción 1</a>
+                                <a class="dropdown-item" href="#">Opción 2</a>
+                                <a class="dropdown-item" href="#">Opción 3</a>
+                            </div>
+
                         </li>
                     </ul>
                 </div>
@@ -59,7 +72,7 @@
             </div>
         </div>
     </main>
-
+    <script src="../js/dropdown.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
