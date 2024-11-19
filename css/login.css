@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url('./images/Login.png');
+    background-image: url('../assets/blob-scene-haikei.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,14 +77,14 @@ body{
 
   @font-face {
     font-family: 'public-sans';
-    src: url('./fonts/public-sans.thin.otf') format('opentype');
+    src: url('../assets/fonts/public-sans.thin.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'public-sans-bold';
-    src: url('./fonts/public-sans.medium.otf');
+    src: url('../assets/fonts/public-sans.medium.otf');
     font-weight: normal;
     font-style: normal;
 }

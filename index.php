@@ -20,7 +20,7 @@
                     <br>
                     <br>
                     <br>
-                    <h1 class="text-principal" id="bienvenido">Bienvenido! 👋🏻</h1>
+                    <h1 class="text-principal" id="bienvenido">Bienvenido!</h1>
                     <h4 id="sub" class="text-principal">Ingresa tu usuario y contraseña</h4>
                     <br>
                     <h4 id="user" class="credentials">Usuario</h4>

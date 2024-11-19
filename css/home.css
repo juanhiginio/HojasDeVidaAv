@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url('../assets/fondoDashboard.jpg');
+    background-image: url('../assets/blob-scene-haikei.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -86,10 +86,24 @@ nav,#fluid{
 
 .container-data {
     display: flex;
-    flex-direction: column;
+    padding: 40px;    
     height: auto;
-    margin-top: 50px;
 }
+table{
+    text-align: center;
+}
+#numero{
+    width: 65px;
+}
+
+.table th, .table td {
+    border: 2px solid #ffffff90;
+  }
+
+thead{
+    background-color: #488ad56d;
+}
+
 
 .image-container {
     display: flex;
