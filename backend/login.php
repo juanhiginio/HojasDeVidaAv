@@ -7,7 +7,7 @@ $username = $_POST['user'];
 $password = $_POST['password'];
 
 try {
-    $stmt = $conn->prepare("SELECT * FROM usuarios WHERE usuario_usuario = :username");
+    $stmt = $conn->prepare("SELECT * FROM usuarios WHERE usuario = :username");
     $stmt->bindParam(':username', $username);
     $stmt->execute();
 
@@ -16,7 +16,7 @@ try {
         $password_db = $user['contrasena_usuario'];
 
         if ($password === $password_db) {
-            $_SESSION['username'] = $user['usuario_usuario'];
+            $_SESSION['username'] = $user['usuario'];
             echo "success";
         } else {
             echo "Usuario o contraseña incorrecta";

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,6 +26,11 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-hover" aria-current="page" href="../index.html" id="logout">CERRAR </a>
+                        </li>
+                        <li>
+                            <h2>
+                            <?php echo $welcome . " " . $user; ?>
+                            </h2>
                         </li>
                     </ul>
                 </div>
