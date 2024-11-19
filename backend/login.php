@@ -16,7 +16,11 @@ try {
         $password_db = $user['contrasena_usuario'];
 
         if ($password === $password_db) {
+            $_SESSION['id'] = $user['id_usuario'];
             $_SESSION['username'] = $user['usuario_usuario'];
+            $_SESSION['name'] = $user['nombre_usuario'];
+            $_SESSION['rol'] = $user['rol_usuario'];
+
             echo "success";
         } else {
             echo "Usuario o contraseña incorrecta";

@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+session_start();
+?>
 
 <head>
     <meta charset="UTF-8">
@@ -41,8 +44,20 @@
             </div>
 
             <div class="personal-data">
-                <label for="" id="name">Juan Rendon</label>
-                <label for="" id="rol">Administrador</label>
+                <label for="" id="name">
+                    <?php
+                    $nombreUsuario = $_SESSION['name'];
+
+                    echo $nombreUsuario
+
+                    ?>
+                </label>
+                <label for="" id="rol">                    <?php
+                    $rolUsuario = $_SESSION['rol'];
+
+                    echo $rolUsuario
+
+                    ?></label>
             </div>
 
             <div class="contenedor-input">
