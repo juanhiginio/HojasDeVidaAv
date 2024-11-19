@@ -4,10 +4,10 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `usuarios` (
     `id_usuario` INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `nombre_usuario` VARCHAR(100) NOT NULL,
-    `usuario_usuario` VARCHAR(100) NOT NULL,
-    `contrasena_usuario` VARCHAR(100) NOT NULL,
-    `rol_usuario` VARCHAR(100) NOT NULL
+    `nombre` VARCHAR(100) NOT NULL,
+    `usuario` VARCHAR(100) NOT NULL,
+    `contrasena` VARCHAR(20) NOT NULL,
+    `rol` VARCHAR(100) NOT NULL
 );
 
 INSERT INTO `usuarios` (`id_usuario`, `nombre_usuario`, `usuario_usuario`, `contrasena_usuario`, `rol_usuario`) VALUES (1, 'Juan Diego Higinio Aranzazu', 'juanhiginio', 'juandiegohiginio123', 'Administrador');

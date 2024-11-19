@@ -24,7 +24,7 @@
                             <a class="nav-link text-hover" aria-current="page" href="https://helpdesk.avidanti.com:8003/portal" id="help">AYUDA </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-hover" aria-current="page" href="../index.html" id="logout">CERRAR </a>
+                            <a href="../backend/logout.php" class="nav-link text-hover" aria-current="page" id="logout">CERRAR </a>
                         </li>
                     </ul>
                 </div>
